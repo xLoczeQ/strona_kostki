@@ -1,0 +1,285 @@
+body {
+    background-image: url(img/tlo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    margin: 0;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 191, 113);
+}
+header {
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 5px;
+    color: beige;
+    text-align: center;
+}
+header > h1 > a {
+    color: beige;
+    transition: 0.3s;
+}
+header > h1 > a:hover {
+    color: rgb(255, 191, 113);
+}
+nav {
+    width: 100%;
+    background-color: rgba(161, 140, 56, 0.5);
+    text-align: center;
+    border-top: 1px solid bisque;
+    border-bottom: 1px solid bisque;
+    height: 50px;
+}
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+ol > li {
+    float: left;
+    width: 150px;
+    height: 50px;
+    transition: 0.3s;
+}
+ol > li > a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 50px;
+    transition: 0.3s;
+}
+ol > li:hover {
+    background-color: beige;
+}
+ol > li > a:hover {
+    color: rgb(155, 96, 96);
+}
+/* rozwijane menu */
+ol > li > ul > li > a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+ol > li > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    display: none;
+}
+ol > li > ul > li {
+    position: relative;
+    z-index: 100%;
+    background-color: rgba(161, 140, 56, 0.5);
+    transition: 0.3s;
+}
+ol > li:hover > ul {
+    display: block;
+}
+ol > li > ul > li:hover {
+    background-color: beige;
+}
+ol > li > ul > li > a:hover {
+    color: rgb(155, 96, 96);
+}
+/* -------------- */
+#container {
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+}
+p > b {
+    color: bisque;
+}
+#table1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.185);
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 50px;
+}
+#one {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#one:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.one {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#two {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#two:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.two {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#three {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#three:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.three {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#four {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#four:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.four {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#five {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#five:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.five {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#six {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#six:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.six {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#seven {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#seven:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.seven {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#eight {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#eight:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.eight {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#nine {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#nine:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.nine {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+#ten {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.349);
+    text-align: center;
+    transition: 0.3s;
+}
+#ten:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.ten {  
+    width: 170px;
+    height: 170px;
+    display: block;
+}
+.sekcja {
+    background-color: rgba(255, 255, 255, 0.171);
+    padding: 10px;
+    border-radius: 10px;
+}
